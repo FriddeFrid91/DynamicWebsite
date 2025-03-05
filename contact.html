@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="index.js" async></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+</head>
+<body>
+    <header><h1 id="header-text">Socal Media App</h1></header>
+    <section class="top-navbar">
+        <nav>
+        <button class="nav-options"><a href="home.html"><h4>HOME</h4></a></button>
+        <button class="nav-options"><a href="posts.html"><h4>POSTS</h4></a></button>
+        <button class="nav-options" id="active-page"><a href="contact.html"><h4>CONTACT</h4></a></button>
+    </nav>
+</section>
+<aside></aside>
+<main>
+    <section class="container">  
+    <form id="myForm">
+        <div><label for="username">Name:</label></div>
+        <div><input type="text" id="username" name="username" required></div>
+        <div><label for="email">Email:</label></div>
+        <div><input type="email" id="email" name="email" required></div>
+
+        <section class="container-checkbox">
+            <div><label for="checkbox">Confirm to send</label></div>
+            <div><input type="checkbox" id="confirm" name="confirm" value="confirm" onclick="enableBtn()"></div>
+    </section>
+
+        <div><button type="submit" disabled id="submit-btn">Send</button></div>
+        </form>
+    </section>
+</main>
+<section class="extra"></section>
+
+<footer>
+    <address>Storkvägen 22, 291 43. Kristianstad.</address> 
+    <p>&copy 2025 Frida Jóhannesson. All rights reserved.</p></footer>
+s
+</body>
+</html>
